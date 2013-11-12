@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+body {
+    background: #F0F0F0;
+}
+.red {
+    color: red;
+}
+#keypad {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 230px;
+    height: 355px;
+    margin-left: -115px;
+    margin-top: -177.5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#keypad-display {
+    position: absolute;
+    background: white;
+    width: 230px;
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+}
+.keypad {
+    position: absolute;
+    -moz-border-radius: 70px/70px;
+    -webkit-border-radius: 70px 70px;
+    border-radius: 70px/70px; 
+    width:70px;
+    height:70px;  
+    background-color: #639bb4;
+    opacity: 0.6;
+    line-height: 65px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+.keypad:hover {
+    opacity: 0.8;
+}
+#keypad-1 {
+    margin-top: 45px;
+    margin-left:0px;
+}
+#keypad-2 {
+    margin-top: 45px;
+    margin-left:80px;
+}
+#keypad-3 {
+    margin-top: 45px;
+    margin-left:160px;
+}
+#keypad-4 {
+    margin-top: 125px;
+    margin-left:0px;
+}
+#keypad-5 {
+    margin-top: 125px;
+    margin-left:80px;
+}
+#keypad-6 {
+    margin-top: 125px;
+    margin-left:160px;
+}
+#keypad-7 {
+    margin-top: 205px;
+    margin-left:0px;
+}
+#keypad-8 {
+    margin-top: 205px;
+    margin-left: 80px;
+}
+#keypad-9 {
+    margin-top: 205px;
+    margin-left:160px;
+}
+#keypad-delete {
+    margin-top: 285px;
+    margin-left:0px;
+    font-size: 20px;
+    line-height: 70px;
+    background-color: #df815a;
+}
+#keypad-0 {
+    margin-top: 285px;
+    margin-left: 80px;
+}
