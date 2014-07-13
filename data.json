@@ -1,6 +1,7 @@
 {
     "genres" : {
         "realism" : {
+            "name" : "Realism",
             "youJumpIJump" : {
                 "title" : "You Jump, I Jump",
                 "author" : "Laura",
@@ -8,15 +9,19 @@
             }
         },
         "mystery" : {
+            "name" : "Mystery"
             
         },
         "scienceFiction" : {
+            "name" : "SciFi"
             
         },
         "trueStory" : {
+            "name" : "True Story"
             
         },
         "other" : {
+            "name" : "Other"
             
         }
     }

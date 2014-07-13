@@ -1,9 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
 @import url(https://fonts.googleapis.com/css?family=Crafty+Girls);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 body {
     background-color:#0089ff;
     color: white;
+}
+#back {
+    position: fixed;
+    top: Calc(50% - 20px);
+    left: 10px;
+    border-radius: 40px 40px; 
+    width: 40px;
+    height: 40px; 
+    box-shadow: 0 0 1px 1px #FFF;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
 }
 #licence{
 	font-family: 'Raleway', sans-serif;
@@ -16,7 +29,7 @@ body {
     left: Calc(50% - 125px);
     width: 250px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
