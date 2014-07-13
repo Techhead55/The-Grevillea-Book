@@ -19,6 +19,8 @@ body {
     font-size: 30px;
 }
 #licence{
+    padding-top: 10px;
+    padding-bottom: 10px;
 	font-family: 'Raleway', sans-serif;
     font-size: 20px;
 	text-decoration: none;
@@ -26,9 +28,10 @@ body {
 }
 #menu {
     position: absolute;
+    top: 0;
     left: Calc(50% - 125px);
     width: 250px;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     -webkit-touch-callout: none;
@@ -37,14 +40,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-#menu-title {
-    width: inherit;
-    font-family: 'Finger Paint', cursive;
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-    padding-bottom: 10px;
 }
 #menu-subtitle {
     width: inherit;
@@ -55,7 +50,6 @@ body {
     text-align: center;
 }
 #menu-items {
-    margin-top: 10px;
     padding-bottom: 10px;
 }
 .menu {
