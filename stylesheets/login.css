@@ -1,12 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
-body {
-    background: #F0F0F0;
-}
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
 .red {
     color: red;
 }
+@keyframes bounce {
+  0% {
+    font-size: 100px;
+  }
+  30% {
+    font-size: 105px;
+  }
+  100% {
+    font-size: 120px;
+  }
+}
 #keypad {
-    position: fixed;
+    position: absolute ;
     top: 50%;
     left: 50%;
     width: 230px;
@@ -19,6 +28,13 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    animation-name: bounce;
+ animation-duration: 4s;
+ animation-iteration-count: 10;
+ animation-direction: alternate;
+ animation-timing-function: ease-out;
+ animation-fill-mode: forwards;
+ animation-delay: 2s;
 }
 #keypad-display {
     position: absolute;

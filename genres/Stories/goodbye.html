@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Grevillea Book</title>
+        <!-- Script for login-->
+        <script src="scripts/menu.js"></script>
+        <!-- Stylesheet for login-->
+        <link type="text/css" rel="stylesheet" href="stories.css" />
+        <!-- Inspired by http://undertheweather.eu/ -->
+    </head>
+    <body>
+        <div id="back"></div>
+        <div id="menu">
+            <div id="story-title">The <br>Grevillea<br> Book</div>
+            <div id="story-subtitle">Good Bye</div>
+</div>
+            <div id="story-text">
+
+<div id="spacer"></div>
+<span id="author">By Sarah</span>
+            </div>
+       <div id="controls">
+            <div class="control-button" id="text-control-small" onclick="document.getElementById('story-text').style.fontSize = 10+'px'">S</div>
+            <div class="control-button" id="text-control-medium" onclick="document.getElementById('story-text').style.fontSize = 15+'px'">M</div>
+            <div class="control-button" id="text-control-large" onclick="document.getElementById('story-text').style.fontSize = 25+'px'">L</div>
+            <div class="control-button" id="background-control-white" onclick="document.getElementsByTagName('body')[0].style.backgroundColor = 'white'; document.getElementById('story-text').style.color = 'black'; document.getElementById('story-subtitle').style.color = 'black'; document.getElementById('story-title').style.color = 'black'">White</div>
+            <div class="control-button" id="background-control-black" onclick="document.getElementsByTagName('body')[0].style.backgroundColor = 'black'; document.getElementById('story-text').style.color = 'white'; document.getElementById('story-subtitle').style.color = 'white'; document.getElementById('story-title').style.color = 'white'">Black</div>
+            <div class="control-button" id="text-control-railway" onclick="document.getElementById('story-text').style.fontFamily = 'Raleway'">R</div>
+            <div class="control-button" id="text-control-jungle" onclick="document.getElementById('story-text').style.fontFamily = 'Jungle'">J</div>
+        </div> 
+    </body>
+</html>

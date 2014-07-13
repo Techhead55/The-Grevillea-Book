@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>True Story - The Grevillea Book</title>
+        <!-- Script for login-->
+        <script src="scripts/menu.js"></script>
+        <!-- Stylesheet for login-->
+        <link type="text/css" rel="stylesheet" href="genre.css" />
+        <!-- Inspired by http://undertheweather.eu/ -->
+		<script>
+            function genre(input){
+                window.location.href = "stories/"+input+".html"
+            }
+        </script>
+    </head>
+    <body>
+        <div id="menu">
+            <div id="menu-title">The <br>Grevillea<br> Book</div>
+            <div id="menu-subtitle">Select a book to read</div>
+            <div id="menu-genre">True Story</div>
+            <div id="menu-items">
+                <div id="menu-1" class="menu" onclick="genre('austria_1922')">
+                    <div id="title">Austria 1922</div>
+                    <div id="author">Lily</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

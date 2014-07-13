@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Grevillea Book</title>
+        <title>Realism - The Grevillea Book</title>
         <!-- Script for login-->
         <script src="scripts/menu.js"></script>
         <!-- Stylesheet for login-->
         <link type="text/css" rel="stylesheet" href="genre.css" />
         <!-- Inspired by http://undertheweather.eu/ -->
+        <script>
+            function genre(input){
+                window.location.href = "stories/"+input+".html"
+            }
+        </script>
+		<style>
+			#menu-4 > #title{
+				font-size: 14px;
+			}
+			#menu-3 > #title{
+				font-size: 15px;
+			}
+
+		</style>
     </head>
     <body>
+        <div id="back"></div>
         <div id="menu">
             <div id="menu-title">The <br>Grevillea<br> Book</div>
             <div id="menu-subtitle">Select a book to read</div>
+            <div id="menu-genre">Realism</div>
             <div id="menu-items">
-                <div id="spacer"></div>
-                <div id="menu-1" class="menu" onclick="book('1')">
-                    <span class="book-title">Example 1</span><br>
-                    <span class="book-author-a">By Nicole Antonio</span>
-                </div><br>
-                <div id="spacer"></div>
-                <div id="menu-1" class="menu" onclick="book('1')">
-                    <span class="book-title">Example 2</span><br>
-                    <span class="book-author-b">By Nicole Antonio</span>
-                </div><br>
-                <div id="spacer"></div>
-                <div id="menu-1" class="menu" onclick="book('1')">
-                    <span class="book-title">Example 3</span><br>
-                    <span class="book-author-c">By Nicole Antonio</span>
-                </div><br>
-                <div id="spacer"></div>
-                <div id="menu-1" class="menu" onclick="book('1')">
-                    <span class="book-title">Example 4</span><br>
-                    <span class="book-author-d">By Nicole Antonio</span>
-                </div><br><div id="spacer-clear"></div>
+
+                <div id="menu-1" class="menu" onclick="genre('you_jump_i_jump')">
+                    <div id="title">You Jump, I Jump</div>
+                    <div id="author">Laura</div>
+                </div>
+                <div id="menu-2" class="menu" onclick="genre('lost_beneath_myself')">
+                    <div id="title">Lost beneath myself</div>
+                    <div id="author">Jennifer</div>
+                </div>
+                <div id="menu-3" class="menu" onclick="genre('earths_unknown_guardian')">
+                    <div id="title">Earth's Unknown Guardian</div>
+                    <div id="author">Taylor</div>
+                </div>
+                <div id="menu-4" class="menu" onclick="genre('where_am_i_going_mummy')">
+                    <div id="title">Where am I going mummy?</div>
+                    <div id="author">Jessie</div>
+                </div>
+				<div id="menu-5" class="menu" onclick="genre('spirit_tree')">
+                    <div id="title">Spirit Tree</div>
+                    <div id="author">Angela</div>
+                </div>
+                <div id="menu-6" class="menu" onclick="genre('regrets')">
+                    <div id="title">Regrets</div>
+                    <div id="author">Joanna</div>
+                </div>
+                <div id="menu-7" class="menu" onclick="genre('it_was_fate')">
+                    <div id="title">It Was Fate</div>
+                    <div id="author">Annabelle </div>
+                </div>
+				<div id="menu-8" class="menu" onclick="genre('ethereal')">
+                    <div id="title">Ethereal</div>
+                    <div id="author">Nicole</div>
+                </div>
             </div>
-            
-            <a href="menu.html"><div id="back">Back</div></a><div id="back">Back</div>
+			
         </div>
+		
     </body>
 </html>

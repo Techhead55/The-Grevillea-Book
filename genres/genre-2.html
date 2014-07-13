@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mystery - The Grevillea Book</title>
+        <!-- Script for login-->
+        <script src="scripts/menu.js"></script>
+        <!-- Stylesheet for login-->
+        <link type="text/css" rel="stylesheet" href="genre.css" />
+        <!-- Inspired by http://undertheweather.eu/ -->
+        <script>
+            function genre(input){
+                window.location.href = "stories/"+input+".html"
+            }
+        </script>
+    </head>
+    <body>
+        <div id="back"></div>
+        <div id="menu">
+            <div id="menu-title">The <br>Grevillea<br> Book</div>
+            <div id="menu-subtitle">Select a book to read</div>
+            <div id="menu-genre">Mystery</div>
+            <div id="menu-items">
+				<div id="menu-1" class="menu" onclick="genre('night_time_bump')">
+                    <div id="title">Night Time Bump</div>
+                    <div id="author">Bill, Trent and Fadhil</div>
+                </div>
+            </div>
+			
+        </div>
+    </body>
+</html>

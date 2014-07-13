@@ -7,6 +7,12 @@
         <!-- Stylesheet for login-->
         <link type="text/css" rel="stylesheet" href="stylesheets/login.css" />
         <!-- Inspired by http://undertheweather.eu/ -->
+        <script>
+            function grab (location, id){
+                location[id] = document.getElementById(id);
+                document.getElementById(id).innerHTML= "";
+            }
+        </script>
     </head>
     <body>
         <div id="keypad">
@@ -24,6 +30,6 @@
                 <div id="keypad-0" class="keypad" onmousedown="pinPush('0')">0</div>
                 <div id="keypad-delete" class="keypad" onmousedown="pinDelete()">Delete</div>
             </div>
-        </div>
+        </div>  
     </body>
 </html>
