@@ -2,55 +2,10 @@
 <html>
     <head>
         <title>The Grevillea Book</title>
-        <!-- Script for login-->
-        <script>
-            window.onload =function () {
-                window.setTimeout(function(){
-                    window.location.href = "menu.html";
-                },7000);
-            };
-            window.onmousedown = function(){
-                 window.location.href = "menu.html";
-            };
-document.getElementById("body").onclick = function (){
-window.location.href = "menu.html";
-};
-        </script>
-        <!-- Stylesheet for login-->
-        <!-- Inspired by http://undertheweather.eu/ -->
-        <style>
-            @import url(https://fonts.googleapis.com/css?family=Raleway:300);
-            @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
-            
-            #title {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-                margin-left: -50%;
-                margin-top: -150px;;
-    height: 300px;
-    width: 100%;
-    font-family: 'Finger Paint', cursive;
-    font-size: 100px;
-    line-height: 100px;
-    text-align: center;
-}
-            #menu-subtitle {
-    position:absolute;
-    bottom: 20px;
-    left: 50%;
-                margin-left: -125px;S
-    height: 50px;
-    width: 250px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-}
-        </style>
+        <link type="text/css" rel="stylesheet" href="stylesheets/title.css" />
     </head>
     <body id="body" onclick="window.location.href = "menu.html";">
         <div id="title">The <br>Grevillea<br> Book</div>
-            <div id="menu-subtitle">Click to skip to menu</div>
+        <div id="menu-subtitle">Click or swip to continue to menu</div>
     </body>
 </html>

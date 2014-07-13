@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+body {
+    background-color:#0089ff;
+    color: white;
+}
+#title {
+    position: fixed;
+    top: Calc(50% - 150px);
+    left: 0;
+    height: 300px;
+    width: 100%;
+    font-family: 'Finger Paint', cursive;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+#menu-subtitle {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+}
